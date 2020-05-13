@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AngularPortfolio": {
+    "angularportfolio": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/AngularPortfolio",
+            "outputPath": "dist/angularportfolio",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "AngularPortfolio:build"
+            "browserTarget": "angularportfolio:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "AngularPortfolio:build:production"
+              "browserTarget": "angularportfolio:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AngularPortfolio:build"
+            "browserTarget": "angularportfolio:build"
           }
         },
         "test": {
@@ -116,18 +116,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "AngularPortfolio:serve"
+            "devServerTarget": "angularportfolio:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "AngularPortfolio:serve:production"
+              "devServerTarget": "angularportfolio:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "AngularPortfolio",
+  "defaultProject": "angularportfolio",
   "cli": {
     "analytics": "9983e3b4-2032-4387-9d37-ff8d37574a4f"
   }
