@@ -1,0 +1,23 @@
+// .nav-bar{
+//     height: 100vh;
+//     overflow-y: scroll;
+// }
+
+.navigation-bar {
+    height: 60px;
+    width: 100%;
+    padding: 0 20px 0 20px;
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    background-color: #004faa;
+    line-height: 1.8;
+
+    .nav-bar-items {
+        margin-right: 2rem;
+        cursor: pointer;
+    }
+    .nav-bar-items:hover{
+        color:red;
+    }
+}
