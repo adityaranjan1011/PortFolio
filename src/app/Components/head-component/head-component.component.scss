@@ -1,18 +1,16 @@
-// header{
-    
-// }
-
-
+.header-component{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
 .portfolio-footer {
     background-color: #111111;
     color: #fff;
     margin-top: 30px;
-    height: calc(100vh - 500px);
+    height: calc(100vh - 498px);
     font-size: 16px;
 
     .contact-list{
-        // position: relative;
-        // top:40%;
         text-align: center;
         display: grid;
         grid-template-columns: 0.5fr 1fr;

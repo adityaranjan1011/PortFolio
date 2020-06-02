@@ -14,4 +14,5 @@ export class PortfolioHomeComponent implements OnInit {
  toAbout(){
    document.getElementById('head').scrollIntoView({behavior : "smooth"});
  }
+
 }

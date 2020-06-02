@@ -1,8 +1,11 @@
-// .nav-bar{
-//     height: 100vh;
-//     overflow-y: scroll;
+// .mat-elevation-z5 {
+//     position: relative;
+// }  
+// .sticky {
+//     position: fixed;
+//     top: 20px;
+//     width:100%;
 // }
-
 .navigation-bar {
     height: 60px;
     width: 100%;
@@ -13,10 +16,10 @@
     background-color: #004faa;
     line-height: 1.8;
 
-    .nav-bar-items {
-        margin-right: 2rem;
+ .nav-bar-items {
+    margin-right: 2rem;
         cursor: pointer;
-    }
+  }
     .nav-bar-items:hover{
         color:red;
     }
